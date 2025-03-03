@@ -23,11 +23,11 @@ let arr = [headPosition]
 // var condition = false
 var lastbutton = ""
 let num = 1
-var speed = 1000
+var speed = 250
 
 
 function select(elem){
-    speed = 1 / elem.value * 1000
+    speed = 1 / elem.value * 250
 }
 
 
